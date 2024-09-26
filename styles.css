@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+.img-bg {
+    width: 1000px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    background-color: #1f2739;
+    color: white;
+    display: flex;
+    padding: 20px 150px 20px 150px;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: auto;
+    gap: 2em;
+}
+
+.logo-name {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-main {
+    color: white;
+    background-image: url("images/boracay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 400px 0px 400px;
+    width: 100vw;
+    height: 800px;
+    min-width: 1000px;
+  }
+  
+#login-block {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    border-radius: 20px;
+    gap: 3em;
+    width: 1000px;
+    height: 300px;
+    padding: 200px 60px 200px 60px;
+}
+
+#login-block #login-form {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 20em;
+    height: 15em;
+}
+
+#login-form input {
+    background-color: rgb(231, 231, 236);
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+#login-form #btn {
+    background-color: #1f2739;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#hero-text h1 {
+    font-size: 85px;
+}
+
+#hero-text p {
+    font-size: 18px;
+}
