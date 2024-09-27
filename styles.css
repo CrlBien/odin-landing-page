@@ -9,10 +9,6 @@ body {
     background-color: white;
 }
 
-.img-bg {
-    width: 1000px;
-}
-
 .nav-bar a {
     text-decoration: none;
     color: white;
@@ -24,6 +20,7 @@ body {
     display: flex;
     padding: 20px 150px 20px 150px;
     align-items: center;
+    width: 100%;
 }
 
 .nav-menu {
@@ -41,15 +38,13 @@ body {
 .hero-main {
     color: white;
     background-image: url("images/boracay.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     align-items: center;
-    padding: 0px 400px 0px 400px;
-    width: 100vw;
+    padding: 0px 150px 0px 150px;
+    width: 100%;
     height: 800px;
-    min-width: 1000px;
   }
   
 #login-block {
@@ -62,7 +57,7 @@ body {
     margin-left: 70px;
     border-radius: 20px;
     gap: 3em;
-    width: 1000px;
+    width: 500px;
     height: 300px;
     padding: 200px 60px 200px 60px;
 }
@@ -112,4 +107,151 @@ body {
 
 #hero-text p {
     font-size: 18px;
+}
+
+.info-container .circle-border {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    gap: 1em    
+}
+
+.info-container h4 {
+    display: flex; 
+    font-size: 20px;
+}
+
+.info-container p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+}
+
+.info-container {
+    background-color: azure;
+    width: 100%;
+    height: 400px;
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box #deal {
+    background-color: rgb(255, 224, 230);
+}
+
+.info-box #supp {
+    background-color: rgb(209, 211, 250);
+}
+
+.info-box #book {
+    background-color: rgb(255, 227, 227);
+}
+
+.dest-container {
+    background-color: #1f2739;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dest-container #title {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dest-flag .flag {
+    width: 32px;
+}
+
+.dest-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 90%;
+}
+
+.dest-box {
+    background-color: white;
+    border-radius: 30px;
+    width: 400px;
+    height: 320px;
+    padding: 10px;
+}
+
+.dest-box .dest-img {
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+.dest-name {
+    display: flex;
+    padding: 5px 10px 10px 10px;
+}
+
+.dest-text {
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.book-container {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.book-block {
+    background-color: #1f2739;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+}
+.book-block #book-text {
+    width: 60%;
+    margin-right: auto;
+}
+
+.book-block #book-text p {
+    font-size: 14px;
+}
+
+.book-block #book-btn {
+    background-color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.book-block #book-btn a {
+    text-decoration: none;
+    color: #1f2739;
 }
